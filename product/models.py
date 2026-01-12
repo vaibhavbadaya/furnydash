@@ -11,6 +11,8 @@ class Category(models.Model):
     class Meta:
         db_table="category_management"
 
+    def __str__(self):
+        return f"{self.name}"
 
 # Create you
 class Product(models.Model):

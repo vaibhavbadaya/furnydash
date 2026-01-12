@@ -15,7 +15,6 @@ class Brand(models.Model):
         db_table="brand_management"
 
     def __str__(self):
-        return self.name
-
+        return f"{self.name}"
 
 
